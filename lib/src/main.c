@@ -28,6 +28,8 @@ int main(int argc, char **argv) {
   BPU_T_McEliece_Ctx ctx;
   BPU_T_Vector_GF2 ct, pt_in, pt_out;
 
+  fprintf(stderr, "TEST\n");
+
   srand(time(NULL));
 
   /***************************************/
